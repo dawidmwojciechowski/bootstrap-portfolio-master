@@ -10,6 +10,20 @@ body {
 
 .intro-left {
     background: url(/img/1.jpg);
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .intro-left {
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
 }
 
 .avatar {
@@ -18,3 +32,8 @@ body {
     border-radius: 50%;
     margin: 1rem;
 }
+
+.full-height {
+    height: 100%;
+}
+
